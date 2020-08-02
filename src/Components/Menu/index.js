@@ -8,15 +8,15 @@ import Button from '../Button';
 function Menu() {
     return (
         <nav className="Menu">
-            <Link to='/'>
-                <img className='Logo' src={Logo} alt="Logo Boxflix"></img>
+            <Link to="/">
+                <img className="Logo" src={Logo} alt="Logo Boxflix" />
             </Link>
-            
+
             <Button as={Link} className="ButtonLink" to="/cadastro/video">
-              Novo vídeo      
-            </Button>
+                Novo vídeo
+      </Button>
         </nav>
     );
 }
 
-export default Menu; //belezinha
+export default Menu; // belezinha
