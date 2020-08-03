@@ -7,13 +7,13 @@ import Menu from '../../components/Menu';
 
 function Home() {
   return (
-    <div style={{ background: "#141414" }}>
-      <Menu/>
-   
+    <div style={{ background: '#141414' }}>
+      <Menu />
+
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"Não adentre a boa noite apenas com ternura, não entre nessa noite acolhedora com ternura."}
+        videoDescription="Não adentre a boa noite apenas com ternura, não entre nessa noite acolhedora com ternura."
       />
 
       <Carousel
@@ -27,11 +27,11 @@ function Home() {
 
       <Carousel
         category={dadosIniciais.categorias[2]}
-      />      
+      />
 
       <Carousel
         category={dadosIniciais.categorias[3]}
-      />      
+      />
 
       <Carousel
         category={dadosIniciais.categorias[4]}
